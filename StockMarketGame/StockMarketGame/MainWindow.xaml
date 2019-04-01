@@ -1,0 +1,19 @@
+﻿<Window x:Class="StockMarketGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockMarketGame"
+        mc:Ignorable="d"
+        Title="The Cub of Wall Street" Height="374.106" Width="468.058" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="314" Margin="10,10,0,0" VerticalAlignment="Top" Width="442">
+            <Label x:Name="titleLabel" Content="The Cub of Wall Street" HorizontalAlignment="Left" VerticalAlignment="Top" Height="65" Width="442" HorizontalContentAlignment="Center" FontFamily="Old English Text MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
+            <Button x:Name="newGame_button" Content="New Game" HorizontalAlignment="Center" Margin="10,90,10,0" VerticalAlignment="Top" Width="422" Height="42" HorizontalContentAlignment="Center" FontFamily="Old English Text MT" FontSize="24" Click="NewGame_button_Click"/>
+            <Button x:Name="loadGame_button" Content="Load Game (Coming soon...)" HorizontalAlignment="Center" Margin="10,137,10,0" VerticalAlignment="Top" Width="422" Height="42" HorizontalContentAlignment="Center" FontFamily="Old English Text MT" FontSize="24" IsEnabled="False"/>
+            <Button x:Name="howToPlay_button" Content="How To Play" HorizontalAlignment="Center" Margin="10,184,10,0" VerticalAlignment="Top" Width="422" Height="42" HorizontalContentAlignment="Center" FontFamily="Old English Text MT" FontSize="24" Click="HowToPlay_button_Click"/>
+            <Image x:Name="logo_image" HorizontalAlignment="Left" Height="83" Margin="332,231,0,0" VerticalAlignment="Top" Width="100" Source="images/logo.jpg"/>
+        </Grid>
+
+    </Grid>
+</Window>
