@@ -8,9 +8,10 @@ namespace StockMarketGame
 {
     public class Company
     {
-        string name;
-        double price { get; set; }
-        int available { get; set; }
+        public string name { get; set; }
+        public double price { get; set; }
+        public int available { get; set; }
+        public char size { get; set; }
 
         public Company(string name)
         {

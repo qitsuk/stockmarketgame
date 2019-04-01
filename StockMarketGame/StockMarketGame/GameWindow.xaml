@@ -12,6 +12,13 @@
                 <TextBlock TextWrapping="Wrap" Text="Welcome to Wall Street. You've been saving money for a while, and have accumulated $5000 as startup capitol. Spend it wisely, and pay attention to this box. From time to time, hints regarding the different companies will pop up here." Margin="9,1,-1,-1"/>
             </Border>
             <Label Content="Infobox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="124" FontFamily="Old English Text MT" FontSize="16"/>
+            <Label Content="Your Portfolio" HorizontalAlignment="Left" Margin="10,183,0,0" VerticalAlignment="Top" Width="124" FontFamily="Old English Text MT" FontSize="18"/>
+            <DataGrid x:Name="portfolio_grid" HorizontalAlignment="Left" Height="247" Margin="10,220,0,0" VerticalAlignment="Top" Width="285" IsReadOnly="True"/>
+            <Button Content="Next Day" HorizontalAlignment="Left" Margin="300,220,0,0" VerticalAlignment="Top" Width="113"/>
+            <DataGrid x:Name="marketGrid" HorizontalAlignment="Left" Height="247" Margin="418,220,0,0" VerticalAlignment="Top" Width="346" IsReadOnly="True"/>
+            <Label Content="The Market" HorizontalAlignment="Left" Margin="418,188,0,0" VerticalAlignment="Top" Width="128" FontFamily="Old English Text MT" FontSize="18"/>
+            <Label Content="Your balance: $" HorizontalAlignment="Left" Margin="536,10,0,0" VerticalAlignment="Top" FontFamily="Old English Text MT" FontSize="18"/>
+            <Label x:Name="balanceLabel" Content="" HorizontalAlignment="Left" Margin="665,10,0,0" VerticalAlignment="Top" Width="60" FontFamily="Old English Text MT" FontSize="18"/>
         </Grid>
 
     </Grid>

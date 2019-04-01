@@ -20,10 +20,13 @@ namespace StockMarketGame
     public partial class GameWindow : Window
     {
         Engine engine;
+        List<Company> companies;
         public GameWindow(Engine engine)
         {
             InitializeComponent();
             this.engine = engine;
+            marketGrid.ItemsSource = engine.companies;
+            balanceLabel.Content = engine.player.balance;
         }
     }
 }
